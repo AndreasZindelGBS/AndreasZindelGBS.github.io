@@ -32,6 +32,11 @@ nav a {
     font-weight: bold;
 }
 
+nav a.active {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
 .page {
     display: none;
     padding: 100px 2rem 2rem; 
@@ -41,8 +46,6 @@ nav a {
 
 .page.active {
     display: block;
-    text-decoration: underline;
-    text-decoration-color: black;
 }
 
 h2 {
@@ -266,7 +269,7 @@ button {
     margin-bottom: 0.5rem;
 }
 
-/* Responsive */
+/* Responsive Design*/
 @media (max-width: 768px) {
     nav a {
         display: block;
@@ -279,7 +282,6 @@ button {
         grid-template-columns: 1fr;
     }
 
-    /* Portfolio bleibt Grid mit automatischer Reihenfolge */
     .portfolio-container {
         display: grid;
         grid-template-columns: 1fr;
