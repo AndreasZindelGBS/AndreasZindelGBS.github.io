@@ -167,7 +167,6 @@ h2 {
   display: flex;
   align-items: stretch;
   justify-content: stretch;
-  height: fit-content;
 }
 
 .portfolio-image-item img {
