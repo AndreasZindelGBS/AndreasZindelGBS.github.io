@@ -41,6 +41,8 @@ nav a {
 
 .page.active {
     display: block;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 h2 {
